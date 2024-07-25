@@ -1,0 +1,26 @@
+.option {
+  width: inherit;
+  height: 1.5rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  display: flex;
+  background-color: inherit;
+  padding-left: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 0.5rem;
+}
+
+.option:hover {
+  background-color: #bdd5fc;
+}
+
+.icon-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icons {
+  height: 1rem;
+}

@@ -1,0 +1,25 @@
+.content-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.pagination-section {
+  padding: 0.5rem;
+  height: 8%;
+}
+
+.options-section {
+  height: 92%;
+}
+
+.icons {
+  height: 1rem;
+}
+
+.tab-label {
+  display: flex;
+  gap: 1rem;
+}

@@ -1,0 +1,18 @@
+<div class="sidebar">
+    <div class="compose-section">
+        <div class="compose">
+            <img src="./assets/pen.png" alt="pen" class="icons">
+            Compose
+        </div>
+    </div>
+    <div class="options">
+        <app-sidebar-options [count]="180" [optionIcon]="'./assets/inbox.png'"
+            [optionTitle]="'Inbox'"></app-sidebar-options>
+        <app-sidebar-options [count]="180" [optionIcon]="'./assets/star.png'"
+            [optionTitle]="'Starred'"></app-sidebar-options>
+        <app-sidebar-options [count]="90" [optionIcon]="'./assets/snooze.png'"
+            [optionTitle]="'Snoozed'"></app-sidebar-options>
+        <app-sidebar-options [count]="15" [optionIcon]="'./assets/send.png'"
+            [optionTitle]="'Sent'"></app-sidebar-options>
+    </div>
+</div>
